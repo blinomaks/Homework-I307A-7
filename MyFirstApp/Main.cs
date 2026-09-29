@@ -1,10 +1,10 @@
-﻿public class Program
+﻿public class Base
 {
     public static void Main()
     {
-        Program2 math = new Program2();
+        MyMath math = new MyMath();
         int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-        
+
         double SumR = math.Sum(numbers);
         double MaxR = math.Max(numbers);
         double MinR = math.Min(numbers);

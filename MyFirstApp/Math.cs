@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-public class Program2
+public class MyMath
 {
     public double Sum(int[] nums)
     {
